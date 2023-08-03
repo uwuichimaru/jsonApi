@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.btn{
+    background-color: greenyellow;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 44px;
+}
+
+.btn-delete{
+    background-color: red;
+}
+.btn-user{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+}
+
+#addUserForm {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+}
+
+#addUserForm input {
+    height: 25px;
+    outline: none;
+}
+
+.edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.edit input{
+    height: 33px;
+    outline: none;
+}
+
+.edit button{
+    width: 100%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
